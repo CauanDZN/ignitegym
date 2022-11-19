@@ -27,21 +27,22 @@ export function SignIn(){
                 <Heading color="gray.100" fontSize="xl" mb={6} fontFamily="heading">
                     Acesse sua conta
                 </Heading>
+
+                <Input 
+                    placeholder="E-mail" 
+                    keyboardType="email-address"
+                    autoCapitalize="none"
+                />
+
+                <Input 
+                    placeholder="Senha" 
+                    secureTextEntry
+                />
+
+                <Button title="Acessar" />
             </Center>
 
-            <Input 
-                placeholder="E-mail" 
-                keyboardType="email-address"
-                autoCapitalize="none"
-            />
-
-            <Input 
-                placeholder="Senha" 
-                secureTextEntry
-            />
-
-            <Button title="Acessar" />
-            
+            <Button title="Criar conta" variant="outline" />
         </VStack>
     )
 }
