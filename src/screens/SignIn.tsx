@@ -20,6 +20,7 @@ export function SignIn(){
             <VStack flex={1} bg="gray.700" px={10} pb={16}>
                 <Image 
                     source={backgroundImg} 
+                    defaultSource={backgroundImg}
                     alt="Pessoas treinando"
                     resizeMode="contain"
                     position="absolute"
